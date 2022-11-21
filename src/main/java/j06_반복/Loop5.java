@@ -56,30 +56,7 @@ public class Loop5 {
             loopFlag = selectionConditions(select, a, b);
             select = sc.nextLine();
 
-            if (select.equals("q")) {
-                loopFlag = false;
-
-            } else if (select.equals("1")) {
-                System.out.println(a + "+" + b + "=" + (a + b));
-
-            } else if (select.equals("2")) {
-                System.out.println(a + "-" + b + "=" + (a - b));
-
-            } else if (select.equals("3")) {
-                System.out.println(a + "*" + b + "=" + (a * b));
-
-            } else if (select.equals("4")) {
-                System.out.println(a + "/" + b + "=" + (a / b));
-
-            } else if (select.equals("5")) {
-                System.out.println(a + "%" + b + "=" + (a % b));
-
-            } else {
-                System.out.println("잘못된 입력입니다. 다시 입력하세요");
-
-            }
         }
+
     }
-
 }
-
