@@ -25,4 +25,3 @@ public class EntityMain {
         System.out.println(obj instanceof Entity);
     }
 }
-. 

@@ -19,14 +19,12 @@ public class StudentMain {
         System.out.println(student == student2); //주소값 비교
         System.out.println(student.equals(student2));
 
-        print(student);
-
         System.out.println(student.hashCode() == student2.hashCode()); // 출력되는 값은 실제 주소다.
         System.out.println(student2.hashCode());
 
         Class c = student.getClass(); // 반환 자료형이 Class<>
         System.out.println(c);
-        System.out.println(c.getName());
+        System.out.println(c.getName()); // 패키지 클래스명
         System.out.println(c.getSimpleName()); // 클래스의 이름만
 
         Field[] fields = c.getDeclaredFields();
