@@ -11,7 +11,7 @@ public class B extends A{  // extends 확장
     private String b;
 
     public B() {
-        b = getA();
-    }
+        b= getA();
 
+    }
 }
