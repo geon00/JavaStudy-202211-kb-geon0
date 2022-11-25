@@ -5,8 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 
-@Builder
-@ToString
+@Builder@ToString
 public class User {
     private String username;
     private String password;
