@@ -8,11 +8,11 @@ public class StudentList {
 
         List<Student> students = new ArrayList<Student>();
 
-        students.add(new Student(20220001, "장건녕", 23));
-        students.add(new Student(20220002, "문승주", 31));
-        students.add(new Student(20220003, "문경원", 28));
-        students.add(new Student(20220004, "임지현", 32));
-        students.add(new Student(20220005, "고동현", 26));
+        students.add(new Student(20220001, "장건녕", 23, null));
+        students.add(new Student(20220002, "문승주", 31, null));
+        students.add(new Student(20220003, "문경원", 28, null));
+        students.add(new Student(20220004, "임지현", 32, null));
+        students.add(new Student(20220005, "고동현", 26, null));
 
         Student student2 = students.get(0);
 //
